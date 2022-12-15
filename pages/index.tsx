@@ -11,15 +11,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-white p-4 max-w-[320px] max-h-[500px] h-full w-full rounded-lg flex flex-col gap-4">
+      <div className="bg-white p-4 max-w-[320px] max-h-[500px] h-full w-full rounded-lg flex flex-col gap-4 pb-10">
         <img
           src={qr.src}
           className="mb-2 w-full max-h-[288px] h-full bg-[#2C7DFA]"
         />
-        <h1 className="font-bold text-[22px]">
+        <h1 className="font-bold text-[22px] text-center">
           Improve your front-end skills by building projects
         </h1>
-        <p className="text-[15px]">
+        <p className="text-[15px] px-4 text-center">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
